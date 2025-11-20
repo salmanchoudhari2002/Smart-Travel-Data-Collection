@@ -1,50 +1,40 @@
-## Project info
+## Your App Tech Stack
 
-This is a native cross-platform mobile app created with **AI App Builder**
+### Language:
+- TypeScript - Type-safe JavaScript
 
-**Platform**: Native iOS & Android app, exportable to web  
-**Framework**: Expo Router + React Native
+### Core Framework:
+- React Native (v0.81.5) - Cross-platform mobile development
+- Expo (SDK 54) - Development platform for React Native
+- React (v19.1.0)
 
-## How can I edit this code?
+### Routing:
+- Expo Router (v6) - File-based navigation system
 
-There are several ways of editing your native mobile application.
+### State Management:
+- @tanstack/react-query - Server state management
+- @nkzw/create-context-hook - React context state management
+- Zustand - Lightweight state management
+- AsyncStorage - Local persistent storage
 
-### **Use AI App Builder**
+### UI & Design:
+- React Native StyleSheet - Native styling
+- Lucide React Native - Icon library
+- Expo Linear Gradient - Gradient backgrounds
+- Expo Blur - Blur effects
+- React Native Safe Area Context - Safe area handling
 
-Visit your **AI App Builder dashboard** and prompt the AI to build or update your app.
+### Additional Features:
+- Expo Location - GPS/location services
+- Expo Image Picker - Image selection
+- Expo Haptics - Haptic feedback
+- Expo Image - Optimized image component
 
-Changes made through AI App Builder will sync automatically with this GitHub repository.
+### Web Compatibility:
+- React Native Web - Web support
 
-Whenever you make a change in your local editor and push it to GitHub, it will also appear in AI App Builder.
+### Development Tools:
+- Bun - Package manager & runtime
+- ESLint - Code linting
 
-### **Use your preferred code editor**
-
-If you prefer working locally, clone this repo and push changes.  
-Changes will sync to AI App Builder.
-
-If you're new to coding, we recommend Cursor.  
-If you're familiar with terminals, try Claude Code.
-
-Requirements:
-- Node.js  
-- Bun package manager
-
-Steps:
-
-```bash
-# Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Step 2: Move into project folder
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install dependencies
-bun i
-
-# Step 4: Start web preview
-bun run start-web
-
-# Step 5: Start iOS preview
-bun run start   # press "i" in terminal
-# or:
-bun run start -- --ios
+This is a modern TypeScript + React Native + Expo mobile application with cross-platform support (iOS, Android, Web).
